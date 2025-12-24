@@ -1,21 +1,66 @@
-This is your group repo for your final project for COGS108.
+# COGS 108 Final Project – Group XXX
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+This repository contains the final group project for **COGS 108: Data Science in Practice**.
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+The project explores a data-driven research question using data science methodologies, including data collection, preprocessing, exploratory data analysis, and modeling. All work follows the structure and requirements outlined by the course.
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
+---
 
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
+## Project Structure
 
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
+Template Jupyter notebooks are provided for each stage of the project. The required notebooks for this repository are:
 
 - `ProjectProposal_groupXXX.ipynb`
 - `DataCheckpoint_groupXXX.ipynb`
 - `EDACheckpoint_groupXXX.ipynb`
 - `FinalProject_groupXXX.ipynb`
 
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
+> **Note:** Replace `XXX` with your assigned group number.
 
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+Each notebook corresponds to a specific project milestone and is submitted by its respective due date.
 
+---
+
+## Repository Guidelines
+
+- This repository is **private** and is only visible to course instructors and group members.
+- Only work on the notebook corresponding to the current project stage prior to its due date.
+- After a submission deadline, development should continue in the next notebook.
+- The repository will be **frozen on the final project due date**, and no further changes can be made after that time.
+- Grading is based **solely on the content of the required notebooks**.
+
+Aside from the required files, the group is free to:
+- Edit this README
+- Add scripts or helper files
+- Include datasets or visualizations
+- Organize the repository as desired
+
+---
+
+## Contributions
+
+This project was collaboratively developed by all group members.
+
+**Matthew Paoletta** contributed to:
+- Data preprocessing and cleaning
+- Exploratory data analysis (EDA)
+- Model development and evaluation
+- Writing and editing analysis notebooks
+- General collaborative development and version control
+
+---
+
+## Sharing & Portfolio Use
+
+After the course concludes, group members are encouraged to:
+- Fork this repository to their personal GitHub accounts
+- Make the fork public
+- Include the project in personal portfolios
+
+Please ensure that any shared version properly credits all contributors and complies with course policies.
+
+---
+
+## Acknowledgments
+
+This project was completed as part of **COGS 108** at UC San Diego.
