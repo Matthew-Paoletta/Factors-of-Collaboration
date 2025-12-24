@@ -1,66 +1,96 @@
-# COGS 108 Final Project – Group XXX
+# Music Artist Collaboration Prediction  
+**COGS 108 – Data Science in Practice | Final Project (Group 165)**
 
-This repository contains the final group project for **COGS 108: Data Science in Practice**.
+## Overview
+Music collaborations have become increasingly common across genres and platforms, but what actually predicts whether two artists will collaborate?
 
-The project explores a data-driven research question using data science methodologies, including data collection, preprocessing, exploratory data analysis, and modeling. All work follows the structure and requirements outlined by the course.
+This project investigates **which factors best predict artist collaborations**, focusing on:
+- Artist background
+- Fame and popularity
+- Musical characteristics
 
----
-
-## Project Structure
-
-Template Jupyter notebooks are provided for each stage of the project. The required notebooks for this repository are:
-
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
-
-> **Note:** Replace `XXX` with your assigned group number.
-
-Each notebook corresponds to a specific project milestone and is submitted by its respective due date.
+Using a combination of music metadata and collaboration data, we frame this as a **binary classification problem** and evaluate multiple machine learning models to determine which features are the strongest predictors.
 
 ---
 
-## Repository Guidelines
+## Research Question
+**What factor is the strongest predictor of whether or not a song features a collaboration between artists — the artist’s background, fame, or the music they create?**
 
-- This repository is **private** and is only visible to course instructors and group members.
-- Only work on the notebook corresponding to the current project stage prior to its due date.
-- After a submission deadline, development should continue in the next notebook.
-- The repository will be **frozen on the final project due date**, and no further changes can be made after that time.
-- Grading is based **solely on the content of the required notebooks**.
+---
 
-Aside from the required files, the group is free to:
-- Edit this README
-- Add scripts or helper files
-- Include datasets or visualizations
-- Organize the repository as desired
+## Data
+We combined multiple datasets related to music artists and songs, including:
+- Artist popularity and fame metrics
+- Song-level audio features
+- Collaboration indicators
+
+All datasets were cleaned, merged, and processed to create a unified modeling dataset suitable for supervised learning.
+
+> This repository remains private for course purposes. Data sources and preprocessing steps are fully documented in the project notebooks.
+
+---
+
+## Methodology
+The project followed a standard data science workflow:
+
+1. **Data Cleaning & Preprocessing**
+   - Handling missing values
+   - Feature selection and normalization
+   - Encoding categorical variables
+
+2. **Exploratory Data Analysis (EDA)**
+   - Distribution analysis of artist popularity
+   - Feature correlations
+   - Comparison of collaborative vs. non-collaborative songs
+
+3. **Modeling**
+   We evaluated several classification models, including:
+   - Logistic Regression
+   - Decision Trees
+   - Random Forests
+
+4. **Evaluation**
+   - Accuracy
+   - Precision & recall
+   - Model comparison across feature groups
+
+---
+
+## Results
+- Models achieved **moderate predictive performance**, with accuracy scores in the **50–60% range**
+- **Artist fame and popularity metrics** were the most informative predictors of collaboration
+- Musical/audio features alone were less predictive than expected
+- Results suggest collaborations are driven more by **social and popularity factors** than purely musical similarity
+
+---
+
+## Key Takeaways
+- Popularity plays a significant role in predicting collaborations
+- Audio features are useful but insufficient on their own
+- Collaboration prediction is a challenging task with inherent uncertainty
+
+---
+
 
 ---
 
 ## Contributions
-
-This project was collaboratively developed by all group members.
+This project was completed collaboratively for COGS 108.
 
 **Matthew Paoletta** contributed to:
-- Data preprocessing and cleaning
+- Data preprocessing and feature engineering
 - Exploratory data analysis (EDA)
 - Model development and evaluation
+- Interpretation of results
 - Writing and editing analysis notebooks
-- General collaborative development and version control
 
 ---
 
-## Sharing & Portfolio Use
-
-After the course concludes, group members are encouraged to:
-- Fork this repository to their personal GitHub accounts
-- Make the fork public
-- Include the project in personal portfolios
-
-Please ensure that any shared version properly credits all contributors and complies with course policies.
+## Portfolio & Sharing
+After course completion, this project may be forked and shared publicly for portfolio use.  
+Please ensure all contributors are credited appropriately.
 
 ---
 
 ## Acknowledgments
-
-This project was completed as part of **COGS 108** at UC San Diego.
+Completed as part of **COGS 108: Data Science in Practice**.
